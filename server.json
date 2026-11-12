@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.toasternet/delegaize",
+  "description": "AI agents for CRM, mail, calendar, ERP and accounting - you approve. EU-hosted, OAuth.",
+  "title": "DelegAIze",
+  "version": "1.0.2",
+  "websiteUrl": "https://delegaize.cf-innov-ai-tive.de/mcp",
+  "repository": { "url": "https://github.com/toasternet/delegaize-mcp", "source": "github" },
+  "icons": [
+    { "src": "https://delegaize.cf-innov-ai-tive.de/brand/delegaize-512.png", "mimeType": "image/png", "sizes": ["512x512"] },
+    { "src": "https://delegaize.cf-innov-ai-tive.de/brand/delegaize-192.png", "mimeType": "image/png", "sizes": ["192x192"] }
+  ],
+  "remotes": [
+    { "type": "streamable-http", "url": "https://callpilotai.cf-innov-ai-tive.de/api/sb/functions/v1/mcp-server" }
+  ]
+}
